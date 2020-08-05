@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 16px;
+  font-family: "Anton", sans-serif;
+  width: 1600px;
+  height: 900px;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+.header {
+  background: url("/img/header-bg.png") no-repeat center top / cover;
+  color: #fff;
+  padding-top: 57px;
+  padding-bottom: 322px;
+}
+.menu {
+  display: flex;
+}
+ul,
+li {
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-right: 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.tel {
+  font-size: 17px;
+  text-decoration: none;
+  margin-left: auto;
+  color: #fff;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 69px;
+}
+.offer {
+  font-size: 100px;
+  margin-bottom: 19px;
+  margin-top: -9px;
+  letter-spacing: 0.02em;
+}
+p {
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+h1 {
+  font-size: 100px;
+  line-height: 147px;
+  margin-top: -9px;
+  margin-bottom: 19px;
+}
+.btn {
+  display: block;
+  font-size: 17px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-decoration: none;
+  padding: 17px 47px;
+  border: 1px solid #fff;
+  width: 238px;
+  color: #fff;
+}
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+section {
+  padding-top: 113px;
+}
+h2 {
+  font-size: 50px;
+  margin-bottom: 58px;
+}
+h3 {
+  font-size: 25px;
+  margin-bottom: 28px;
+}
+.des {
+  display: flex;
+  justify-content: space-between;
+}
+.des p {
+  font-family: "Open Sans";
+  font-weight: 400;
+  text-align: justify;
+  line-height: 1.62em;
+}
+.gallery {
+  margin-top: 67px;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.5s ease;
+}
+.gallery img {
+  transition: all 0.5s ease;
+}
+.gallery img:hover {
+  box-shadow: 0 20px 40px;
+  transform: scale(1.1);
+}
+.des-left,
+.des-right {
+  width: 567px;
+}
+.text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  display: flex;
+  padding: 114px 0;
+}
+.text p {
+  margin-right: 67px;
+}
